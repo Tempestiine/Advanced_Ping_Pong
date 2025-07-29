@@ -24,10 +24,10 @@ A customized Java implementation of the classic arcade game Pong, featuring sing
    javac *.java
    ```
 
-This should be the resulting text...
+What you will see on your computer should be similar to what I have:
 
    ```bash
-   PS C:\Users\Khai\OneDrive\Desktop\Advanced_Ping_Pong-main> javac *.java
+   PS C:\Users\Khaid\OneDrive\Desktop\Advanced_Ping_Pong-main> javac *.java
    Note: MyQueue.java uses unchecked or unsafe operations.
    Note: Recompile with -Xlint:unchecked for details.
    PS C:\Users\Khaid\OneDrive\Desktop\Advanced_Ping_Pong-main>
