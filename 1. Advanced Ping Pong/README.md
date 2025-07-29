@@ -36,7 +36,7 @@ A customized Java implementation of the classic arcade game Pong, featuring sing
 
 **Two Player:**
 - **Player 1:** Move mouse up/down
-- **Player 2:** Use ↑ and ↓ arrow keys
+- **Player 2:** Use up and down arrow keys
 
 ### Game Modes
 
@@ -49,7 +49,6 @@ At startup, choose your mode:
 - **Adaptive difficulty:** Ball speed increases every 5 paddle hits
 - **Level progression:** Paddles get smaller and faster as you advance
 - **Performance feedback:** On-screen tips based on current score
-- **Balanced AI:** Computer opponent has realistic limitations
 
 ## Technical Implementation
 
