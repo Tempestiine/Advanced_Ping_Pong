@@ -14,12 +14,16 @@ A customized Java implementation of the classic arcade game Pong, featuring sing
 ## How to Run
 
 1. Make sure you have Java installed on your system
-2. Clone or download this repository
-3. Compile the Java files:
+2. Clone or download this repository.
+
+OR
+
+- You can just download the overall file "Advanced Ping Pong" to get a zip file. Pro tip, I'm assuming the contents of "Advanced Ping Pong" are together locally on your computer
+5. Compile the Java files:
    ```bash
    javac software/*.java software/objects/*.java
    ```
-4. Run the game:
+6. Run the game:
    ```bash
    java software.Main
    ```
