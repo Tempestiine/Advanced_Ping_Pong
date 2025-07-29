@@ -11,22 +11,35 @@ A customized Java implementation of the classic arcade game Pong, featuring sing
 - **Custom data structures** - implements a custom queue for level management
 - **Smooth controls** - mouse control for Player 1, keyboard for Player 2
 
-## How to Run
+## How to Run for Dummies
 
-1. Make sure you have Java installed on your system
-2. Clone or download this repository.
+1. Make sure you have Java installed on your system. If not, please look up a tutorial on how to install Java 17 or 21. The next steps will guide you towards downloading the file properly onto your machine. Notably, I'm using Windows.
 
-OR
+2. On the page (https://github.com/Tempestiine/Advanced_Ping_Pong), look for a green button with the text, "<> Code". Click it and click "Download ZIP" anywhere.
+3. Go into the ZIP file. Drag the folder "Advanced_Ping_Pong-main" and drop it onto your desktop to copy the contents onto your desktop. Right click the folder and click "Open in Terminal". I'm assuming that you're using Windows PowerShell. The next steps will guide you towards compiling and running the files.
 
-- You can just download the overall file "Advanced Ping Pong" to get a zip file. Pro tip, I'm assuming the contents of "Advanced Ping Pong" are together locally on your computer
-5. Compile the Java files:
+4. Now, you're in Terminal (Windows PowerShell), in the right directory. Compile the Java files by typing the text below.
+
    ```bash
-   javac software/*.java software/objects/*.java
+   javac *.java
    ```
-6. Run the game:
+
+This should be the resulting text...
+
+   ```bash
+   PS C:\Users\Khai\OneDrive\Desktop\Advanced_Ping_Pong-main> javac *.java
+   Note: MyQueue.java uses unchecked or unsafe operations.
+   Note: Recompile with -Xlint:unchecked for details.
+   PS C:\Users\Khaid\OneDrive\Desktop\Advanced_Ping_Pong-main>
+   ```
+
+6. Run the game with the `java` command:
+
    ```bash
    java software.Main
    ```
+
+7. When you're done, hit the `X` button at the top to close it. Feel free to delete the game afterward.
 
 ## How to Play
 
