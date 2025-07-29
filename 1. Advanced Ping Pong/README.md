@@ -53,7 +53,7 @@ At startup, choose your mode:
 ## Technical Implementation
 
 This project demonstrates:
-- Object-oriented design with inheritance (Paddle → PlayerPaddle/ComputerPaddle)
+- Object-oriented design with inheritance (Paddle > PlayerPaddle/ComputerPaddle)
 - Custom data structures (MyQueue class for level management)
 - Event-driven programming (mouse and keyboard listeners)
 - Game loop architecture with collision detection
