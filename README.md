@@ -4,7 +4,7 @@ A customized Java implementation of the classic arcade game Pong, featuring sing
 
 ## Features
 
-- **Single-player mode** with AI opponent
+- **Single-player mode**
 - **Two-player local multiplayer**
 - **Progressive difficulty** - ball speed and paddle size change each round
 - **Dynamic feedback system** - real-time advice based on your performance
@@ -48,16 +48,16 @@ What you will see on your computer should be similar to what I have:
 ### Controls
 
 **Single Player:**
-- **Player 1:** Move mouse up/down to control your paddle
-- **Computer:** Automatically controlled (with intentional imperfections for balance)
+- **Player 1:** Move mouse up/down to control your paddle.
+- **Computer:** Automatically controlled (with intentional imperfections for balance).
 
 **Two Player:**
-- **Player 1:** Move mouse up/down
-- **Player 2:** Use up and down arrow keys
+- **Player 1:** Move mouse up/down.
+- **Player 2:** Use up and down arrow keys.
 
 ### Game Modes
 
-At startup, choose your mode:
+At startup, choose your mode using numbers on your keyboard. If you're using the keypad, make sure "num lock" is turned off or on:
 - Press **1** for Single Player
 - Press **2** for Two Player
 
